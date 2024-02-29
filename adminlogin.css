@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Jomolhari', serif;
+    background-color: #fddfcb;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+}
+
+form input{
+    display: block;
+}
+
+form{
+    height: 600px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formclass{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0.5px 0.5px 20px 0.5px rgb(255, 166, 134);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formclass input{
+    font-family: 'Jomolhari', serif;
+
+    padding: 15px;
+    font-size: 15px;
+    width: 250px;
+    outline: none;
+    border: 1px solid rgb(223, 222, 222);
+    margin-bottom: 20px;
+    background-color: rgb(233, 235, 235);
+    border-bottom-width: 2.5px;
+    transition: 0.3s;
+}
+.formclass input:focus{
+    border-color: rgb(123, 123, 123);
+}
+.formclass h1{
+    
+    position: relative;
+    bottom:60px;
+}
+
+
+.formclass button{
+    margin-top: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 13px;
+
+    letter-spacing: 0.5px;
+    padding: 10px;
+    background-color: #e55c00;
+    color:white;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    transition: 0.3s;    
+}
+
+.formclass button:hover{
+    background-color: rgb(0, 0, 0);
+}
+.formclass p{
+    font-family: 'Jomolhari', serif;
+    font-size: 12px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+ 
+
+
+.adminlogin{
+    
+    position: absolute;
+    top:20px;
+    right: 30px;
+    padding: 14px;
+    cursor: pointer;
+
+    font-family: 'Jomolhari', serif;
+    background-color: rgb(255, 255, 255);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: 0.3s;
+    color: rgb(57, 57, 57);
+    border: 1px solid rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
+.adminlogin:hover{
+    background-color: rgb(237, 247, 254);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(16, 16, 16);
+
+}
+
+

@@ -1,0 +1,196 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgb(0, 0, 0);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+ul{
+    display: inline-block;
+    list-style: none;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 30px 0px 30px;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size:20px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-family: 'Merriweather', serif;
+    letter-spacing: 2px;
+    transition: 0.4s;
+    background-color: rgb(0, 0, 0);
+
+}
+nav ul li a:hover{
+    color: black;
+    background-color: azure;
+    padding: 20px 30px 20px 30px;
+}
+
+
+.formdesign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+body {
+    background-color: #e4fdff;
+    height: 100vh;
+    background-position: center;
+    background-size:cover;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+table {
+
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    
+  }
+  
+  th {
+    background-color: rgb(145, 222, 252);
+    /* color: white; */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ddf4fb;
+  }
+  
+  tr:hover {
+    background-color: #f8f8f8;
+  }
+
+
+  .button{
+    background-color: #ac0808;
+    padding:15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    transition: 0.3s;
+  }
+
+  .button:hover{
+    background-color: #4e0808;
+
+  }
+
+  .formclass{
+    padding: 50px;
+    
+
+  }
+
+.formclass button{
+    background-color: #ac0808;
+    padding:15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+
+.formclass div{
+    margin: 10px;
+}
+.formclass button:hover{
+    background-color: #4e0808;
+    
+}
+
+.formclass input{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    background-color: #ffffff;
+    border: 1px solid rgb(189, 189, 189);
+    
+}
+
+.addbutton{
+
+    background-color: #11b099;
+    padding:15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.removebutton{
+    background-color: #dc6536;
+    padding:15px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+.bookdate{
+
+    background-color:#828f90;
+    padding: 15px;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+
+    
+}
+
+.selection{
+
+    background-color:#828f90;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
